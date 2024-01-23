@@ -15,7 +15,7 @@ function mincost(arr)
 		sum += a+b;
 		arr.push(a+b);
 	}
-	return arr[0];
+	return sum;
   
 }
 
